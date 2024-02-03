@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #E6A4B4;
+    color:#F5EEE6 ;
+}
+
+.cabecalho{
+    margin: 1.8rem 4.5rem;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 6.1rem;
+}
+
+.cabecalho__menu__link{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ca6982;
+    text-decoration: none ;
+}
+
+.cupcake{
+    height: 14rem;
+    width: 12rem;
+}
+
+.conteudo{
+    margin: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.6rem;
+}
+
+.conteudo__titulo{
+    font-size: 2.2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.texto{
+    
+    font-size: 1.4rem;
+}
+
+.conteudo__botao{
+    order: 4;
+    background-color: #f0e3ec;
+    width: 17.5rem;
+    text-align: center;
+    border-radius: 1.3rem;
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    text-decoration: none;
+}
+
+.rodape{
+    padding: 2.5rem;
+    font-size: 1rem;
+    background-color: #ca6982;
+    text-align: center;
+}
+
+@media(max-width: 800px){
+    .conteudo{
+        margin: 5%;
+    }
+    .texto{
+    width: auto;
+    }
+}
